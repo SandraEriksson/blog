@@ -1,0 +1,19 @@
+.container {
+    text-align: center;
+    padding-top: 20px;
+}
+
+button {
+    background-color: white;
+    border: none;
+    font-size: 1.5rem;
+    color: rgb(186, 103, 117);
+}
+
+
+
+.numberOfLikes {
+    color: rgb(186, 103, 117);
+    font-size: 1.2rem;
+    display: inline;
+}

@@ -1,0 +1,39 @@
+h1 {
+  text-align: center;
+
+}
+
+button {
+  background-color: rgb(186, 103, 117);
+  border: none;
+  color: white;
+  font-size: large;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+button:focus {
+  background-color: rgb(186, 103, 117);
+}
+
+button:hover {
+  background-color: rgb(186, 103, 117);
+}
+
+p {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 1.3rem;
+}
+
+.date {
+  font-size: 1rem;
+  color: rgb(186, 103, 117);
+}
+
+img {
+  height: 400px;
+  width: 400px;
+}

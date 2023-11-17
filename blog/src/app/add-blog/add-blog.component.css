@@ -1,0 +1,15 @@
+.btn {
+    margin-top: 10px;
+    background-color: rgb(186, 103, 117);
+    border: none;
+}
+
+.btn:focus {
+    background-color: rgb(186, 103, 117);
+}
+
+
+h1 {
+    color: rgb(186, 103, 117);
+    text-align: center;
+}

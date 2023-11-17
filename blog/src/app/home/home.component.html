@@ -1,0 +1,15 @@
+<div class="container">
+  <h1 i class=" bi bi-flower1 "> Welcome To My Blog</h1>
+  <br>
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col" *ngFor='let blog of blogs'>
+      <div class="card">
+        <img [src]="blog.thumbnailUrl" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title"> {{ blog.title }}</h5>
+          <a [routerLink]="['blog', blog.id]" class="btn stretched-link"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

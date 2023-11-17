@@ -1,0 +1,17 @@
+.bi-flower1 {
+    font-size: 40px;
+    color: rgb(186, 103, 117);
+}
+
+.nav-link {
+    color: rgb(186, 103, 117);
+}
+
+.btn {
+    background-color: rgb(186, 103, 117);
+    border: none;
+}
+
+.btn:focus {
+    background-color: rgb(186, 103, 117);
+}

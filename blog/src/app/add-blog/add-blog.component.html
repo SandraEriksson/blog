@@ -1,0 +1,19 @@
+<div class="container">
+  <h1 i class=" bi bi-flower1 "> Add post</h1>
+  <br>
+  <form>
+    <div class="form-group">
+      <label for="title">Title</label>
+      <input type="text" [(ngModel)]="title" id="titleInput" name="title" class="form-control"
+        placeholder="Add title..">
+    </div>
+    <div class="form-group">
+      <label for="content">Content</label>
+      <textarea class="form-control" [(ngModel)]="content" id="contentInput" name="content" id="text-input" rows="3"
+        placeholder="Add content.."></textarea>
+    </div>
+    <div class="button-container d-flex gap-2 d-md-flex">
+      <button type="button" (click)="addBlog(title, content)" class="btn btn-primary ms-auto btn-sm">Submit</button>
+    </div>
+  </form>
+</div>

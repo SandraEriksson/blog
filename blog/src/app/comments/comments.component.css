@@ -1,0 +1,25 @@
+.btn {
+    margin-top: 10px;
+    background-color: rgb(186, 103, 117);
+    border: none;
+}
+
+.btn:focus {
+    background-color: rgb(186, 103, 117);
+}
+
+.container  {
+    width: 60%;
+}
+
+.comment-box {
+    margin-top: 5px;
+    border:solid rgb(225, 219, 219) 1px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.date {
+    font-size: 0.8rem;
+    color: rgb(186, 103, 117);;
+}

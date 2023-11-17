@@ -1,0 +1,16 @@
+<div class="container">
+  <form>
+    <div class="form-group">
+      <label for="exampleFormControlTextarea1">Comment</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" [(ngModel)]="comment"
+        name="comment"></textarea>
+    </div>
+  </form>
+  <div class="d-flex gap-2 d-md-flex">
+    <button (click)="submitComment()" type="button" class="btn btn-primary ms-auto btn-sm">Submit</button>
+  </div>
+  <div class="comment-box" *ngFor="let comment of postComment">
+    <p>Anonymous says: {{comment}}</p>
+    <p class="date">Published: {{date | date: 'mediumDate'}}</p>
+  </div>
+  <div>

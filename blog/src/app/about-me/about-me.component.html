@@ -1,0 +1,37 @@
+<div class="container">
+
+  <h1 i class=" bi bi-flower1 "> About me</h1>
+  <br>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus auctor magna quis ligula auctor, et vehicula leo
+    cursus. Nunc sodales rhoncus eros, et tincidunt magna vulputate sit amet. Praesent vitae dapibus sapien. Proin nec
+    scelerisque mi, vel euismod nisi. Nam ornare rhoncus ex non sodales.
+    Fusce pharetra pellentesque orci sit amet imperdiet.
+    Vestibulum posuere est sit amet sollicitudin condimentum. Integer volutpat at ante at lobortis. Suspendisse potenti.
+    Fusce aliquet nulla eu iaculis varius. <br>
+    Pellentesque lacinia lacus ante, vitae sagittis turpis tincidunt ac. Interdum et malesuada fames ac ante ipsum
+    primis in faucibus. In vitae leo sit amet mauris sollicitudin sodales eu vel odio.
+    Nullam in diam venenatis, molestie augue at, fringilla libero. Etiam nec magna viverra, varius arcu eget, imperdiet
+    enim. Ut arcu dui, cursus vitae justo et, rhoncus pellentesque felis. In lacinia lectus posuere sapien vulputate,
+    eget semper nibh commodo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+    Quisque mi sapien, tristique ac elit a, dapibus tristique diam. Morbi vitae nulla vehicula, feugiat felis ut,
+    rhoncus augue.
+    Etiam dui nisi, mollis a pulvinar eu, semper at enim. <br>
+    Donec tempor odio magna, quis auctor nisl mattis vitae. Duis consectetur lorem at elementum laoreet. Praesent eget
+    lacus eleifend, aliquam augue a, viverra ligula. Cras accumsan fermentum erat sed euismod. Donec odio dolor, tempor
+    quis ligula vitae, malesuada interdum orci. Vivamus dapibus porta massa, sit amet efficitur eros bibendum vitae.
+    Morbi molestie ex vitae diam hendrerit, tristique volutpat nulla venenatis.
+    Praesent congue felis in nisi tristique lobortis.</p>
+  <br>
+
+  <h3 i class=" bi bi-flower1 "> Contact Me</h3>
+  <div class="mb-3">
+    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+    <input type="email" class="form-control" [(ngModel)]="email" name="email" id="email" placeholder="name@example.com"
+      required>
+  </div>
+  <div class="mb-3">
+    <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+    <textarea class="form-control" [(ngModel)]="message" name="message" id="message" rows="3" required></textarea>
+  </div>
+  <button type="button" (click)="onSubmit()" class="btn btn-primary ms-auto">Submit</button>
+</div>
